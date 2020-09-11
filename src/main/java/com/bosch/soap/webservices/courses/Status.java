@@ -1,5 +1,5 @@
 
-package com.bosch.soap.webservices.soapcoursemanagement;
+package com.bosch.soap.webservices.courses;
 
 import javax.xml.bind.annotation.XmlEnum;
 import javax.xml.bind.annotation.XmlType;

@@ -1,5 +1,5 @@
 
-package com.bosch.soap.webservices.soapcoursemanagement;
+package com.bosch.soap.webservices.courses;
 
 import java.util.ArrayList;
 import java.util.List;

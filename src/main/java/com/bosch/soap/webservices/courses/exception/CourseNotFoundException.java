@@ -1,4 +1,4 @@
-package com.bosch.soap.webservices.soapcoursemanagement.soap.exception;
+package com.bosch.soap.webservices.courses.exception;
 
 import org.springframework.ws.soap.server.endpoint.annotation.FaultCode;
 import org.springframework.ws.soap.server.endpoint.annotation.SoapFault;

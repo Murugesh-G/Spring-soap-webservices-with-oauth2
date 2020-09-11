@@ -1,4 +1,4 @@
-package com.bosch.soap.webservices.soapcoursemanagement.soap;
+package com.bosch.soap.webservices.courses;
 
 import java.util.List;
 
@@ -8,17 +8,17 @@ import org.springframework.ws.server.endpoint.annotation.PayloadRoot;
 import org.springframework.ws.server.endpoint.annotation.RequestPayload;
 import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
 
-import com.bosch.soap.webservices.soapcoursemanagement.CourseDetails;
-import com.bosch.soap.webservices.soapcoursemanagement.DeleteCourseDetailsRequest;
-import com.bosch.soap.webservices.soapcoursemanagement.DeleteCourseDetailsResponse;
-import com.bosch.soap.webservices.soapcoursemanagement.GetAllCourseDetailsRequest;
-import com.bosch.soap.webservices.soapcoursemanagement.GetAllCourseDetailsResponse;
-import com.bosch.soap.webservices.soapcoursemanagement.GetCourseDetailsRequest;
-import com.bosch.soap.webservices.soapcoursemanagement.GetCourseDetailsResponse;
-import com.bosch.soap.webservices.soapcoursemanagement.Status;
-import com.bosch.soap.webservices.soapcoursemanagement.soap.bean.Course;
-import com.bosch.soap.webservices.soapcoursemanagement.soap.exception.CourseNotFoundException;
-import com.bosch.soap.webservices.soapcoursemanagement.soap.service.CourseDetailsService;
+import com.bosch.soap.webservices.courses.CourseDetails;
+import com.bosch.soap.webservices.courses.DeleteCourseDetailsRequest;
+import com.bosch.soap.webservices.courses.DeleteCourseDetailsResponse;
+import com.bosch.soap.webservices.courses.GetAllCourseDetailsRequest;
+import com.bosch.soap.webservices.courses.GetAllCourseDetailsResponse;
+import com.bosch.soap.webservices.courses.GetCourseDetailsRequest;
+import com.bosch.soap.webservices.courses.GetCourseDetailsResponse;
+import com.bosch.soap.webservices.courses.Status;
+import com.bosch.soap.webservices.courses.bean.Course;
+import com.bosch.soap.webservices.courses.exception.CourseNotFoundException;
+import com.bosch.soap.webservices.courses.service.CourseDetailsService;
 
 @Endpoint
 public class CourseDetailsEndpoint {

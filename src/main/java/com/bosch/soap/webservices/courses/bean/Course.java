@@ -1,4 +1,4 @@
-package com.bosch.soap.webservices.soapcoursemanagement.soap.bean;
+package com.bosch.soap.webservices.courses.bean;
 
 public class Course {
     private int id;

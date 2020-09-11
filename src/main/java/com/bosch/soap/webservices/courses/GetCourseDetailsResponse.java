@@ -1,11 +1,10 @@
 
-package com.bosch.soap.webservices.soapcoursemanagement;
+package com.bosch.soap.webservices.courses;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlSchemaType;
 import javax.xml.bind.annotation.XmlType;
 
 
@@ -19,7 +18,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="status" type="{http://bosch.com/courses}Status"/>
+ *         &lt;element name="CourseDetails" type="{http://bosch.com/courses}CourseDetails"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -30,37 +29,36 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "status"
+    "courseDetails"
 })
-@XmlRootElement(name = "DeleteCourseDetailsResponse", namespace = "http://bosch.com/courses")
-public class DeleteCourseDetailsResponse {
+@XmlRootElement(name = "GetCourseDetailsResponse", namespace = "http://bosch.com/courses")
+public class GetCourseDetailsResponse {
 
-    @XmlElement(namespace = "http://bosch.com/courses", required = true)
-    @XmlSchemaType(name = "string")
-    protected Status status;
+    @XmlElement(name = "CourseDetails", namespace = "http://bosch.com/courses", required = true)
+    protected CourseDetails courseDetails;
 
     /**
-     * Gets the value of the status property.
+     * Gets the value of the courseDetails property.
      * 
      * @return
      *     possible object is
-     *     {@link Status }
+     *     {@link CourseDetails }
      *     
      */
-    public Status getStatus() {
-        return status;
+    public CourseDetails getCourseDetails() {
+        return courseDetails;
     }
 
     /**
-     * Sets the value of the status property.
+     * Sets the value of the courseDetails property.
      * 
      * @param value
      *     allowed object is
-     *     {@link Status }
+     *     {@link CourseDetails }
      *     
      */
-    public void setStatus(Status value) {
-        this.status = value;
+    public void setCourseDetails(CourseDetails value) {
+        this.courseDetails = value;
     }
 
 }

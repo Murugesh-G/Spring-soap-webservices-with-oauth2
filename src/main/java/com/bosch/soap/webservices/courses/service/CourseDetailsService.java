@@ -1,6 +1,5 @@
-package com.bosch.soap.webservices.soapcoursemanagement.soap.service;
+package com.bosch.soap.webservices.courses.service;
 
-import static com.bosch.soap.webservices.soapcoursemanagement.soap.service.CourseDetailsService.Status.SUCCESS;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -8,7 +7,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Component;
 
-import com.bosch.soap.webservices.soapcoursemanagement.soap.bean.Course;
+import com.bosch.soap.webservices.courses.bean.Course;
 
 @Component
 public class CourseDetailsService {

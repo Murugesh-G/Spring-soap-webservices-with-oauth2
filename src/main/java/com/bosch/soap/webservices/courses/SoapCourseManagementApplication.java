@@ -1,4 +1,4 @@
-package com.bosch.soap.webservices.soapcoursemanagement;
+package com.bosch.soap.webservices.courses;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
