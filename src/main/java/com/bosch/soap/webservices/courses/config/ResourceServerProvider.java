@@ -10,7 +10,7 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.E
 
 @EnableResourceServer
 @Configuration
-class AuthenticationManagerProvider extends WebSecurityConfigurerAdapter {
+class ResourceServerProvider extends WebSecurityConfigurerAdapter {
 
     @Bean
     @Override

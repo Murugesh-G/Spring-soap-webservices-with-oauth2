@@ -8,14 +8,6 @@ import org.springframework.ws.server.endpoint.annotation.PayloadRoot;
 import org.springframework.ws.server.endpoint.annotation.RequestPayload;
 import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
 
-import com.bosch.soap.webservices.courses.CourseDetails;
-import com.bosch.soap.webservices.courses.DeleteCourseDetailsRequest;
-import com.bosch.soap.webservices.courses.DeleteCourseDetailsResponse;
-import com.bosch.soap.webservices.courses.GetAllCourseDetailsRequest;
-import com.bosch.soap.webservices.courses.GetAllCourseDetailsResponse;
-import com.bosch.soap.webservices.courses.GetCourseDetailsRequest;
-import com.bosch.soap.webservices.courses.GetCourseDetailsResponse;
-import com.bosch.soap.webservices.courses.Status;
 import com.bosch.soap.webservices.courses.bean.Course;
 import com.bosch.soap.webservices.courses.exception.CourseNotFoundException;
 import com.bosch.soap.webservices.courses.service.CourseDetailsService;
