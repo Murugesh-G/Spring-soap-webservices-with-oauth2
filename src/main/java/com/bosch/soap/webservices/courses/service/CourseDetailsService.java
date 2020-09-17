@@ -19,11 +19,11 @@ public class CourseDetailsService {
     private static List<Course> courses = new ArrayList<>();
 
     static {
-        courses.add(new Course(1, "Course1 name", "Course1 description"));
-        courses.add(new Course(2, "Course2 name", "Course2 description"));
-        courses.add(new Course(3, "Course3 name", "Course3 description"));
-        courses.add(new Course(4, "Course4 name", "Course4 description"));
-        courses.add(new Course(5, "Course5 name", "Course5 description"));
+        courses.add(new Course(1, "Course1_Name", "Course1_Description"));
+        courses.add(new Course(2, "Course2_Name", "Course2_Description"));
+        courses.add(new Course(3, "Course3_Name", "Course3_Description"));
+        courses.add(new Course(4, "Course4_Name", "Course4_Description"));
+        courses.add(new Course(5, "Course5_Name", "Course5_Description"));
     }
 
     public Course findById(int id) {
